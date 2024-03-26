@@ -4,7 +4,7 @@ LinkedStack::LinkedStack() {
 }
 
 void LinkedStack::push(Dato* alumno) {
-	Nodo* nodo = new Node(alumno);
+	Nodo* nodo = new Nodo(alumno);
 	if (topNode = nullptr)
 		topNode = nodo;
 	else {
